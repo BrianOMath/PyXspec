@@ -258,10 +258,10 @@ x(36).link = y(36)
 x = m4
 x(1).values = 1.0, 0.0 # constant relxillD
 x(1).frozen = True
-x(2).untie()
+x(2).link = m1.TBabs.nH
 x(3).untie()
 x(4).untie()
-x(5).values = 2.0, 0.1 
+x(5).link = m1.relxillD.Index1 
 x(6).link = x.relxillD.Index1
 x(7).values = 200.0, 0.0
 x(7).frozen = True
@@ -396,10 +396,10 @@ x(36).link = y(36)
 x = m7
 x(1).values = 1.0, 0.0 # constant relxillD
 x(1).frozen = True
-x(2).untie()
+x(2).link = m1.TBabs.nH
 x(3).untie()
 x(4).untie()
-x(5).values = 2.0, 0.1 
+x(5).link = m1.relxillD.Index1 
 x(6).link = x.relxillD.Index1
 x(7).values = 200.0, 0.0
 x(7).frozen = True
@@ -534,10 +534,10 @@ x(36).link = y(36)
 x = m10
 x(1).values = 1.0, 0.0 # constant relxillD
 x(1).frozen = True
-x(2).untie()
+x(2).link = m1.TBabs.nH
 x(3).untie()
 x(4).untie()
-x(5).values = 2.0, 0.1 
+x(5).link = m1.relxillD.Index1 
 x(6).link = x.relxillD.Index1
 x(7).values = 200.0, 0.0
 x(7).frozen = True
@@ -674,10 +674,10 @@ x(36).link = y(36)
 x = m13
 x(1).values = 1.0, 0.0 # constant relxillD
 x(1).frozen = True
-x(2).untie()
+x(2).link = m1.TBabs.nH
 x(3).untie()
 x(4).untie()
-x(5).values = 2.0, 0.1 
+x(5).link = m1.relxillD.Index1 
 x(6).link = x.relxillD.Index1
 x(7).values = 200.0, 0.0
 x(7).frozen = True
@@ -813,10 +813,10 @@ x(36).link = y(36)
 x = m16
 x(1).values = 1.0, 0.0 # constant relxillD
 x(1).frozen = True
-x(2).untie()
+x(2).link = m1.TBabs.nH
 x(3).untie()
 x(4).untie()
-x(5).values = 2.0, 0.1 
+x(5).link = m1.relxillD.Index1 
 x(6).link = x.relxillD.Index1
 x(7).values = 200.0, 0.0
 x(7).frozen = True
