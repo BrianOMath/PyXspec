@@ -377,22 +377,6 @@ ha r_sh_o2/cps
 qq
 
 
-## PSDsoft diskpar
-Fit.query = "yes"
-Fit.steppar("129 0.001 0.1 20")
-
-## Saving Plots
-Plot.device = "/xw"
-Plot.iplot()
-la t
-tim off
-fo ro
-lw 3
-pl
-ha disc_par_o2/cps
-qq
-
-
 ## PSDsoft emiss
 Fit.query = "yes"
 Fit.steppar("129 0.0 2.0 20")
@@ -441,5 +425,719 @@ qq
 ## 
 
 
+
+
+##### O3 #####
+
+
+## Pho Index
+Fit.query = "yes"
+Fit.steppar("213 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PhoIndex_o3/cps
+qq
+
+## powerlaw norm
+Fit.query = "yes"
+Fit.steppar("214 0.0 1.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_po_o3/cps
+qq
+
+
+## gamma
+Fit.query = "yes"
+Fit.steppar("223 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha gamma_o3/cps
+qq
+
+## logxi
+Fit.query = "yes"
+Fit.steppar("224 0.0 4.7 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha logxi_o3/cps
+qq
+
+
+## refl_frac
+Fit.query = "yes"
+Fit.steppar("227 0.0 10.0 20 ")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha refl_frac_o3/cps
+qq
+
+
+## relxillD norm
+Fit.query = "yes"
+Fit.steppar("228 0.0 1000.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_relxillD_o3/cps
+qq
+
+
+## PSDsoft r_trc
+Fit.query = "yes"
+Fit.steppar("230 4.0 15.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_trc_o3/cps
+qq
+
+
+## PSDsoft r_sh
+Fit.query = "yes"
+Fit.steppar("231 3.0 100.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_sh_o3/cps
+qq
+
+
+## PSDsoft emiss
+Fit.query = "yes"
+Fit.steppar("234 0.0 2.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha emiss_o3/cps
+qq
+
+## PSDsoft norm
+Fit.query = "yes"
+Fit.steppar("235 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDsoft_norm_o3/cps
+qq
+
+
+## PSDhard norm
+Fit.query = "yes"
+Fit.steppar("242 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDhard_norm_o3/cps
+qq
+## 
+
+
+
+##### O4 #####
+
+
+## Pho Index
+Fit.query = "yes"
+Fit.steppar("318 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PhoIndex_o4/cps
+qq
+
+## powerlaw norm
+Fit.query = "yes"
+Fit.steppar("319 0.0 1.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_po_o4/cps
+qq
+
+
+## gamma
+Fit.query = "yes"
+Fit.steppar("328 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha gamma_o4/cps
+qq
+
+## logxi
+Fit.query = "yes"
+Fit.steppar("329 0.0 4.7 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha logxi_o4/cps
+qq
+
+
+## refl_frac
+Fit.query = "yes"
+Fit.steppar("332 0.0 10.0 20 ")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha refl_frac_o4/cps
+qq
+
+
+## relxillD norm
+Fit.query = "yes"
+Fit.steppar("333 0.0 1000.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_relxillD_o4/cps
+qq
+
+
+## PSDsoft r_trc
+Fit.query = "yes"
+Fit.steppar("335 4.0 15.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_trc_o4/cps
+qq
+
+
+## PSDsoft r_sh
+Fit.query = "yes"
+Fit.steppar("336 3.0 100.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_sh_o4/cps
+qq
+
+
+## PSDsoft emiss
+Fit.query = "yes"
+Fit.steppar("339 0.0 2.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha emiss_o4/cps
+qq
+
+## PSDsoft norm
+Fit.query = "yes"
+Fit.steppar("340 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDsoft_norm_o4/cps
+qq
+
+
+## PSDhard norm
+Fit.query = "yes"
+Fit.steppar("347 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDhard_norm_o4/cps
+qq
+## 
+
+
+
+
+##### O5 #####
+
+
+## Pho Index
+Fit.query = "yes"
+Fit.steppar("423 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PhoIndex_o5/cps
+qq
+
+## powerlaw norm
+Fit.query = "yes"
+Fit.steppar("424 0.0 1.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_po_o5/cps
+qq
+
+
+## gamma
+Fit.query = "yes"
+Fit.steppar("433 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha gamma_o5/cps
+qq
+
+## logxi
+Fit.query = "yes"
+Fit.steppar("434 0.0 4.7 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha logxi_o5/cps
+qq
+
+
+## refl_frac
+Fit.query = "yes"
+Fit.steppar("437 0.0 10.0 20 ")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha refl_frac_o5/cps
+qq
+
+
+## relxillD norm
+Fit.query = "yes"
+Fit.steppar("438 0.0 1000.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_relxillD_o5/cps
+qq
+
+
+## PSDsoft r_trc
+Fit.query = "yes"
+Fit.steppar("440 4.0 15.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_trc_o5/cps
+qq
+
+
+## PSDsoft r_sh
+Fit.query = "yes"
+Fit.steppar("441 3.0 100.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_sh_o5/cps
+qq
+
+
+## PSDsoft emiss
+Fit.query = "yes"
+Fit.steppar("444 0.0 2.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha emiss_o5/cps
+qq
+
+## PSDsoft norm
+Fit.query = "yes"
+Fit.steppar("445 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDsoft_norm_o5/cps
+qq
+
+
+## PSDhard norm
+Fit.query = "yes"
+Fit.steppar("452 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDhard_norm_o5/cps
+qq
+## 
+
+
+
+
+
+##### O6 #####
+
+
+## Pho Index
+Fit.query = "yes"
+Fit.steppar("528 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PhoIndex_o6/cps
+qq
+
+## powerlaw norm
+Fit.query = "yes"
+Fit.steppar("529 0.0 1.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_po_o6/cps
+qq
+
+
+## gamma
+Fit.query = "yes"
+Fit.steppar("538 0.0 10.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha gamma_o6/cps
+qq
+
+## logxi
+Fit.query = "yes"
+Fit.steppar("539 0.0 4.7 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha logxi_o6/cps
+qq
+
+
+## refl_frac
+Fit.query = "yes"
+Fit.steppar("542 0.0 10.0 20 ")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha refl_frac_o6/cps
+qq
+
+
+## relxillD norm
+Fit.query = "yes"
+Fit.steppar("543 0.0 1000.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha norm_relxillD_o6/cps
+qq
+
+
+## PSDsoft r_trc
+Fit.query = "yes"
+Fit.steppar("545 4.0 15.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_trc_o6/cps
+qq
+
+
+## PSDsoft r_sh
+Fit.query = "yes"
+Fit.steppar("546 3.0 100.0 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha r_sh_o6/cps
+qq
+
+
+## PSDsoft emiss
+Fit.query = "yes"
+Fit.steppar("549 0.0 2.0 20")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha emiss_o6/cps
+qq
+
+## PSDsoft norm
+Fit.query = "yes"
+Fit.steppar("550 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDsoft_norm_o6/cps
+qq
+
+
+## PSDhard norm
+Fit.query = "yes"
+Fit.steppar("557 0.0 1000 40")
+
+## Saving Plots
+Plot.device = "/xw"
+Plot.iplot()
+la t
+tim off
+fo ro
+lw 3
+pl
+ha PSDhard_norm_o6/cps
+qq
+## 
 
 Xset.save("pl_sim_psd4_1")
