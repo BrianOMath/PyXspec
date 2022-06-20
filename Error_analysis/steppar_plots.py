@@ -1200,7 +1200,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o6/cps"
+xspec.Plot.addCommand("PSDhard_norm_o6/cps")
 
 ## 
 
