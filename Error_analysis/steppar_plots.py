@@ -10,6 +10,7 @@ Xset.restore("pl_sim_psd4.xcm")
 Xset.parallel.leven = 10
 Xset.parallel.steppar = 10
 Xset.parallel.error = 10
+Fit.nIterations = 100
 
 ## Steppar
 ## O1 ##
