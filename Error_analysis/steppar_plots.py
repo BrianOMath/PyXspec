@@ -7,56 +7,56 @@ AllModels.lmod("relxill", dirPath="/home/brian/relxill")
 Xset.restore("pl_sim_psd4.xcm")
 
 ## Parallelisation 
-Xset.parallel.leven = 8
-Xset.parallel.steppar = 8
-Xset.parallel.error = 8
+Xset.parallel.leven = 28
+Xset.parallel.steppar = 28
+Xset.parallel.error = 28
 Fit.nIterations = 50
 
 ## Steppar
-## O1 ##
-## nH
-Fit.query = "no"
-Fit.steppar("2 0.0 10.0 20")
+# O1 ##
+# nH
+#Fit.query = "no"
+#Fit.steppar("2 0.0 10.0 20")
 
 ## Saving Plotsf
-Plot.device = "/xw"
-Plot("cont")
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("ha nH_o1/cps")
+#Plot.device = "/xw"
+#Plot("cont")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("ha nH_o1/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("3 0.0 10.0 20")
+#Fit.query = "no"
+#Fit.steppar("3 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o1/cps")
+#Plot.device = "/xw"
+#Plot("cont")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o1/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("4 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("4 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("norm_po_o1/cps")
+#Plot.device = "/xw"
+#Plot("cont")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("norm_po_o1/cps")
 
 
 
@@ -263,35 +263,35 @@ xspec.Plot.addCommand("PSDhard_norm_o1/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("108 0.0 10.0 20")
+#Fit.query = "no"
+#Fit.steppar("108 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o2/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o2/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("109 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("109 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("norm_po_o2/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("norm_po_o2/cps")
 
 
 
@@ -453,35 +453,35 @@ xspec.Plot.addCommand("PSDhard_norm_o2/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("213 0.0 10.0 20")
+#Fit.query = "no"
+#Fit.steppar("213 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o3/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o3/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("214 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("214 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("norm_po_o3/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("norm_po_o3/cps")
 
 
 
@@ -642,35 +642,35 @@ xspec.Plot.addCommand("PSDhard_norm_o3/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("318 0.0 10.0 20")
+#Fit.query = "no"
+#it.steppar("318 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o4/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o4/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("319 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("319 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("norm_po_o4/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("norm_po_o4/cps")
 
 
 
@@ -831,35 +831,35 @@ xspec.Plot.addCommand("PSDhard_norm_o4/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("423 0.0 10.0 20")
+#Fit.query = "no"
+#Fit.steppar("423 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o5/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o5/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("424 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("424 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("orm_po_o5/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("orm_po_o5/cps")
 
 
 
@@ -1022,35 +1022,35 @@ xspec.Plot.addCommand("PSDhard_norm_o5/cps")
 
 
 ## Pho Index
-Fit.query = "no"
-Fit.steppar("528 0.0 10.0 20")
+#Fit.query = "no"
+#Fit.steppar("528 0.0 10.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("PhoIndex_o6/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("PhoIndex_o6/cps")
 
 
 ## powerlaw norm
-Fit.query = "no"
-Fit.steppar("529 0.0 1.0 20")
+#Fit.query = "no"
+#Fit.steppar("529 0.0 1.0 20")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("norm_po_o6/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("norm_po_o6/cps")
 
 
 
