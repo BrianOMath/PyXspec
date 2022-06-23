@@ -7,10 +7,10 @@ AllModels.lmod("relxill", dirPath="/home/brian/relxill")
 Xset.restore("pl_sim_psd4.xcm")
 
 ## Parallelisation 
-Xset.parallel.leven = 10
-Xset.parallel.steppar = 10
-Xset.parallel.error = 10
-Fit.nIterations = 100
+Xset.parallel.leven = 8
+Xset.parallel.steppar = 8
+Xset.parallel.error = 8
+Fit.nIterations = 50
 
 ## Steppar
 ## O1 ##
