@@ -125,19 +125,19 @@ xspec.Plot.addCommand("logN/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("17 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("17 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o1/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o1/cps")
 
 
 
@@ -329,19 +329,19 @@ xspec.Plot.addCommand("logxi_o2/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("122 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("122 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o2/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o2/cps")
 
 
 
@@ -519,19 +519,19 @@ xspec.Plot.addCommand("logxi_o3/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("227 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("227 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o3/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o3/cps")
 
 
 
@@ -707,19 +707,19 @@ xspec.Plot.addCommand("logxi_o4/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("332 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("332 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o4/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o4/cps")
 
 
 
@@ -897,19 +897,19 @@ xspec.Plot.addCommand("logxi_o5/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("437 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("437 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o5/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o5/cps")
 
 
 
@@ -1088,19 +1088,19 @@ xspec.Plot.addCommand("logxi_o6/cps")
 
 
 ## refl_frac
-Fit.query = "yes"
-Fit.steppar("542 0.0 10.0 20 ")
+#Fit.query = "yes"
+#Fit.steppar("542 0.0 10.0 20 ")
 
 ## Saving Plots
-Plot.device = "/xw"
-Plot("cont")
+#Plot.device = "/xw"
+#Plot("cont")
 
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-Plot()
-xspec.Plot.addCommand("refl_frac_o6/cps")
+#xspec.Plot.addCommand("la t")
+#xspec.Plot.addCommand("tim off")
+#xspec.Plot.addCommand("fo ro")
+#xspec.Plot.addCommand("lw 3")
+#Plot()
+#xspec.Plot.addCommand("refl_frac_o6/cps")
 
 
 
