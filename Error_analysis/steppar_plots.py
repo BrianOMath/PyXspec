@@ -26,7 +26,7 @@ Fit.nIterations = 50
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("ha nH_o1/cps")
+#Plot.device = " nH_o1/cps")
 
 
 ## Pho Index
@@ -72,7 +72,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("index1/cps")
+xspec.Plot.addCommand("ha index1/cps")
 
 
 ## gamma
@@ -88,7 +88,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o1/cps")
+xspec.Plot.addCommand("ha gamma_o1/cps")
 
 
 ## logxi
@@ -104,7 +104,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o1/cps")
+xspec.Plot.addCommand("ha logxi_o1/cps")
 
 
 ## logN
@@ -120,7 +120,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logN/cps")
+xspec.Plot.addCommand("ha logN/cps")
 
 
 
@@ -137,7 +137,7 @@ xspec.Plot.addCommand("logN/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o1/cps")
+#xspec.Plot.addCommand("ha refl_frac_o1/cps")
 
 
 
@@ -154,7 +154,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o1/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o1/cps")
 
 
 
@@ -171,7 +171,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o1/cps")
+xspec.Plot.addCommand("ha r_trc_o1/cps")
 
 
 
@@ -188,7 +188,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o1/cps")
+xspec.Plot.addCommand("ha r_sh_o1/cps")
 
 
 
@@ -205,7 +205,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("disc_par_o1/cps")
+xspec.Plot.addCommand("ha disc_par_o1/cps")
 
 
 
@@ -222,7 +222,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o1/cps")
+xspec.Plot.addCommand("ha emiss_o1/cps")
 
 
 ## PSDsoft norm
@@ -238,7 +238,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o1/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o1/cps")
 
 
 
@@ -255,7 +255,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o1/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o1/cps")
 
 
 
@@ -275,7 +275,7 @@ xspec.Plot.addCommand("PSDhard_norm_o1/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("PhoIndex_o2/cps")
+#xspec.Plot.addCommand("ha PhoIndex_o2/cps")
 
 
 ## powerlaw norm
@@ -291,7 +291,7 @@ xspec.Plot.addCommand("PSDhard_norm_o1/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("norm_po_o2/cps")
+#xspec.Plot.addCommand("ha norm_po_o2/cps")
 
 
 
@@ -308,7 +308,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o2/cps")
+xspec.Plot.addCommand("ha gamma_o2/cps")
 
 
 ## logxi
@@ -324,7 +324,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o2/cps")
+xspec.Plot.addCommand("ha logxi_o2/cps")
 
 
 
@@ -341,7 +341,7 @@ xspec.Plot.addCommand("logxi_o2/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o2/cps")
+#xspec.Plot.addCommand("ha refl_frac_o2/cps")
 
 
 
@@ -358,7 +358,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o2/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o2/cps")
 
 
 
@@ -375,7 +375,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o2/cps")
+xspec.Plot.addCommand("ha r_trc_o2/cps")
 
 
 
@@ -392,7 +392,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o2/cps")
+xspec.Plot.addCommand("ha r_sh_o2/cps")
 
 
 
@@ -409,7 +409,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o2/cps")
+xspec.Plot.addCommand("ha emiss_o2/cps")
 
 
 ## PSDsoft norm
@@ -425,7 +425,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o2/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o2/cps")
 
 
 
@@ -442,7 +442,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o2/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o2/cps")
 
 ## 
 
@@ -465,7 +465,7 @@ xspec.Plot.addCommand("PSDhard_norm_o2/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("PhoIndex_o3/cps")
+#xspec.Plot.addCommand("ha PhoIndex_o3/cps")
 
 
 ## powerlaw norm
@@ -481,7 +481,7 @@ xspec.Plot.addCommand("PSDhard_norm_o2/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("norm_po_o3/cps")
+#xspec.Plot.addCommand("ha norm_po_o3/cps")
 
 
 
@@ -498,7 +498,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o3/cps")
+xspec.Plot.addCommand("ha gamma_o3/cps")
 
 
 ## logxi
@@ -514,7 +514,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o3/cps")
+xspec.Plot.addCommand("ha logxi_o3/cps")
 
 
 
@@ -531,7 +531,7 @@ xspec.Plot.addCommand("logxi_o3/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o3/cps")
+#xspec.Plot.addCommand("ha refl_frac_o3/cps")
 
 
 
@@ -548,7 +548,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o3/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o3/cps")
 
 
 
@@ -565,7 +565,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o3/cps")
+xspec.Plot.addCommand("ha r_trc_o3/cps")
 
 
 
@@ -582,7 +582,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o3/cps")
+xspec.Plot.addCommand("ha r_sh_o3/cps")
 
 
 
@@ -599,7 +599,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o3/cps")
+xspec.Plot.addCommand("ha emiss_o3/cps")
 
 
 ## PSDsoft norm
@@ -615,7 +615,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o3/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o3/cps")
 
 
 
@@ -632,7 +632,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o3/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o3/cps")
 
 ## 
 
@@ -654,7 +654,7 @@ xspec.Plot.addCommand("PSDhard_norm_o3/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("PhoIndex_o4/cps")
+#xspec.Plot.addCommand("ha PhoIndex_o4/cps")
 
 
 ## powerlaw norm
@@ -670,7 +670,7 @@ xspec.Plot.addCommand("PSDhard_norm_o3/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("norm_po_o4/cps")
+#xspec.Plot.addCommand("ha norm_po_o4/cps")
 
 
 
@@ -687,7 +687,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o4/cps")
+xspec.Plot.addCommand("ha gamma_o4/cps")
 
 
 ## logxi
@@ -702,7 +702,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o4/cps")
+xspec.Plot.addCommand("ha logxi_o4/cps")
 
 
 
@@ -719,7 +719,7 @@ xspec.Plot.addCommand("logxi_o4/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o4/cps")
+#xspec.Plot.addCommand("ha refl_frac_o4/cps")
 
 
 
@@ -736,7 +736,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o4/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o4/cps")
 
 
 
@@ -753,7 +753,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o4/cps")
+xspec.Plot.addCommand("ha r_trc_o4/cps")
 
 
 
@@ -770,7 +770,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o4/cps")
+xspec.Plot.addCommand("ha r_sh_o4/cps")
 
 
 
@@ -787,7 +787,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o4/cps")
+xspec.Plot.addCommand("ha emiss_o4/cps")
 
 
 ## PSDsoft norm
@@ -803,7 +803,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o4/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o4/cps")
 
 
 
@@ -820,11 +820,9 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o4/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o4/cps")
 
 ## 
-
-
 
 
 ##### O5 #####
@@ -843,7 +841,7 @@ xspec.Plot.addCommand("PSDhard_norm_o4/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("PhoIndex_o5/cps")
+#xspec.Plot.addCommand("ha PhoIndex_o5/cps")
 
 
 ## powerlaw norm
@@ -859,7 +857,7 @@ xspec.Plot.addCommand("PSDhard_norm_o4/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("orm_po_o5/cps")
+#xspec.Plot.addCommand("ha norm_po_o5/cps")
 
 
 
@@ -876,7 +874,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o5/cps")
+xspec.Plot.addCommand("ha gamma_o5/cps")
 
 
 ## logxi
@@ -892,7 +890,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o5/cps")
+xspec.Plot.addCommand("ha logxi_o5/cps")
 
 
 
@@ -909,7 +907,7 @@ xspec.Plot.addCommand("logxi_o5/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o5/cps")
+#xspec.Plot.addCommand("ha refl_frac_o5/cps")
 
 
 
@@ -926,7 +924,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o5/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o5/cps")
 
 
 
@@ -943,7 +941,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o5/cps")
+xspec.Plot.addCommand("ha r_trc_o5/cps")
 
 
 
@@ -960,7 +958,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o5/cps")
+xspec.Plot.addCommand("ha r_sh_o5/cps")
 
 
 
@@ -977,7 +975,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o5/cps")
+xspec.Plot.addCommand("ha emiss_o5/cps")
 
 
 ## PSDsoft norm
@@ -993,7 +991,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o5/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o5/cps")
 
 
 
@@ -1010,12 +1008,9 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o5/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o5/cps")
 
 ## 
-
-
-
 
 
 ##### O6 #####
@@ -1034,7 +1029,7 @@ xspec.Plot.addCommand("PSDhard_norm_o5/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("PhoIndex_o6/cps")
+#xspec.Plot.addCommand("ha PhoIndex_o6/cps")
 
 
 ## powerlaw norm
@@ -1050,7 +1045,7 @@ xspec.Plot.addCommand("PSDhard_norm_o5/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("norm_po_o6/cps")
+#xspec.Plot.addCommand("ha norm_po_o6/cps")
 
 
 
@@ -1067,7 +1062,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("gamma_o6/cps")
+xspec.Plot.addCommand("vgamma_o6/cps")
 
 
 ## logxi
@@ -1083,7 +1078,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("logxi_o6/cps")
+xspec.Plot.addCommand("ha logxi_o6/cps")
 
 
 
@@ -1100,7 +1095,7 @@ xspec.Plot.addCommand("logxi_o6/cps")
 #xspec.Plot.addCommand("fo ro")
 #xspec.Plot.addCommand("lw 3")
 #Plot()
-#xspec.Plot.addCommand("refl_frac_o6/cps")
+#xspec.Plot.addCommand("ha refl_frac_o6/cps")
 
 
 
@@ -1117,7 +1112,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("norm_relxillD_o6/cps")
+xspec.Plot.addCommand("ha norm_relxillD_o6/cps")
 
 
 
@@ -1134,7 +1129,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_trc_o6/cps")
+xspec.Plot.addCommand("ha r_trc_o6/cps")
 
 
 
@@ -1151,7 +1146,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("r_sh_o6/cps")
+xspec.Plot.addCommand("ha r_sh_o6/cps")
 
 
 
@@ -1168,7 +1163,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("emiss_o6/cps")
+xspec.Plot.addCommand("ha emiss_o6/cps")
 
 
 ## PSDsoft norm
@@ -1184,7 +1179,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDsoft_norm_o6/cps")
+xspec.Plot.addCommand("ha PSDsoft_norm_o6/cps")
 
 
 
@@ -1201,7 +1196,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("PSDhard_norm_o6/cps")
+xspec.Plot.addCommand("ha PSDhard_norm_o6/cps")
 
 ## 
 
