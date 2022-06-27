@@ -1062,7 +1062,7 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 Plot()
-xspec.Plot.addCommand("vgamma_o6/cps"
+Plot.device = "gamma_o6/cps"
 
 
 ## logxi
