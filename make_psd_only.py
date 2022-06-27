@@ -1,6 +1,5 @@
-### Makes a simultaneous fit for 6 spectra using Relxill and PSDs
-### Insert Relxill Directory Here ###
-relxill_path = "/home/brian/relxill"
+### Makes a simultaneous fit for 6 spectra using only PSDs
+
 
 import xspec
 from xspec import *
