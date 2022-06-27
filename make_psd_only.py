@@ -139,7 +139,7 @@ x(18).link = y(18)
 ## PSDsoft section
 x = m3
 x(1).values = 1.0, 0.0 # constant PSDsoft
-x(2).link = m1.PSDsoft.r_trc
+x(2).untie()
 x(3).untie()
 x(4).values = m1.PSDsoft.inc
 x(5).link = m1.PSDsoft.disc_par
@@ -191,7 +191,7 @@ x(18).link = y(18)
 ## PSDsoft
 x = m5
 x(1).values = 1.0, 0.0 # constant PSDsoft
-x(2).link = m1.PSDsoft.r_trc
+x(2).untie()
 x(3).untie()
 x(4).values = m1.PSDsoft.inc
 x(5).link = m1.PSDsoft.disc_par
@@ -245,7 +245,7 @@ x(18).link = y(18)
 ## PSDsoft
 x = m7
 x(1).values = 1.0, 0.0 # constant PSDsoft
-x(2).link = m1.PSDsoft.r_trc
+x(2).untie()
 x(3).untie()
 x(4).values = m1.PSDsoft.inc
 x(5).link = m1.PSDsoft.disc_par
@@ -297,7 +297,7 @@ x(18).link = y(18)
 ## PSDsoft
 x = m9
 x(1).values = 1.0, 0.0 # constant PSDsoft
-x(2).link = m1.PSDsoft.r_trc
+x(2).untie()
 x(3).untie()
 x(4).values = m1.PSDsoft.inc
 x(5).link = m1.PSDsoft.disc_par
@@ -350,7 +350,7 @@ x(18).link = y(18)
 ## PSDsoft
 x = m11
 x(1).values = 1.0, 0.0 # constant PSDsoft
-x(2).link = m1.PSDsoft.r_trc
+x(2).untie()
 x(3).untie()
 x(4).values = m1.PSDsoft.inc
 x(5).link = m1.PSDsoft.disc_par
