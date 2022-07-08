@@ -1,0 +1,21 @@
+statistic chi
+data 1:1 o6_grp.fits
+ignore 1:1-560,1622-1693
+
+method leven 100 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  TBabs(powerlaw + laor)
+        1.10107      0.001          0          0     100000      1e+06
+        1.68617       0.01         -3         -2          9         10
+        0.03193       0.01          0          0      1e+20      1e+24
+        6.75339       0.05          0          0        100        100
+         2.0336        0.1        -10        -10         10         10
+        1.93573        0.1      1.235      1.235        400        400
+            400       -0.1      1.235      1.235        400        400
+        74.5521          1          0          0         90         90
+    0.000362156       0.01          0          0      1e+20      1e+24
+bayes off

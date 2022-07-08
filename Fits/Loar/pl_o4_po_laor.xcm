@@ -1,0 +1,20 @@
+statistic chi
+data 1:1 o4_grp.fits
+ignore 1:1-500,1900-3290
+
+method leven 100 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0
+model  powerlaw + laor
+        1.48712       0.01         -3         -2          9         10
+      0.0580589       0.01          0          0      1e+20      1e+24
+            100       0.05          0          0        100        100
+       -8.92874        0.1        -10        -10         10         10
+         218.85        0.1      1.235      1.235        400        400
+            400       -0.1      1.235      1.235        400        400
+        89.8817          1          0          0         90         90
+    9.95488e-13       0.01          0          0      1e+20      1e+24
+bayes off
