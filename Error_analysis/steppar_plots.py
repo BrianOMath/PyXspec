@@ -90,22 +90,6 @@ xspec.Plot("cont")
 
 
 
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("21 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o1/cps")
-xspec.Plot("cont")
-
-
-
 ## PSDsoft diskpar
 Fit.query = "yes"
 Fit.steppar("23 0.001 0.1 20")
@@ -187,22 +171,6 @@ xspec.Plot("cont")
 
 
 
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("126 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o2/cps")
-xspec.Plot("cont")
-
-
-
 ## PSDsoft emiss
 Fit.query = "yes"
 Fit.steppar("129 0.0 2.0 20")
@@ -266,20 +234,6 @@ xspec.Plot.addCommand("lw 3")
 xspec.Plot.addCommand("ha r_trc_o3/cps")
 xspec.Plot("cont")
 
-
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("231 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o3/cps")
-xspec.Plot("cont")
 
 
 
@@ -347,22 +301,6 @@ xspec.Plot("cont")
 
 
 
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("336 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o4/cps")
-xspec.Plot("cont")
-
-
-
 ## PSDsoft emiss
 Fit.query = "yes"
 Fit.steppar("339 0.0 2.0 20")
@@ -423,22 +361,6 @@ xspec.Plot.addCommand("tim off")
 xspec.Plot.addCommand("fo ro")
 xspec.Plot.addCommand("lw 3")
 xspec.Plot.addCommand("ha r_trc_o5/cps")
-xspec.Plot("cont")
-
-
-
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("441 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o5/cps")
 xspec.Plot("cont")
 
 
@@ -509,21 +431,6 @@ xspec.Plot.addCommand("lw 3")
 xspec.Plot.addCommand("ha r_trc_o6/cps")
 xspec.Plot("cont")
 
-
-
-## PSDsoft r_sh
-Fit.query = "yes"
-Fit.steppar("546 10.0 100.0 40")
-
-## Saving Plots
-xspec.Plot.device = "/xs"
-xspec.Plot.commands = ()
-xspec.Plot.addCommand("la t")
-xspec.Plot.addCommand("tim off")
-xspec.Plot.addCommand("fo ro")
-xspec.Plot.addCommand("lw 3")
-xspec.Plot.addCommand("ha r_sh_o6/cps")
-xspec.Plot("cont")
 
 
 ## PSDsoft emiss
