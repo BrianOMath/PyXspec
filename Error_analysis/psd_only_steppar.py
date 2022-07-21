@@ -2,7 +2,7 @@
 ## Loading Xspec...
 import xspec
 from xspec import *
-AllModels.lmod("relxill", dirPath="/home/brian/relxill")
+#AllModels.lmod("relxill", dirPath="/home/brian/relxill")
 
 ### Line to load .xmc file
 Xset.restore("pl_sim_psd_only.xcm")
